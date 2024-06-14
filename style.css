@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body {
+    background-color: #00ffff;
+    position: relative;
+}
+.head {
+    background-color: azure;
+    width: 50vw;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top {
+    background-color: rgb(129, 230, 196);
+    height: 35%;
+}
+table thead tr td{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+     
+}
+.footer .foll  {
+    
+    display: flex;
+    justify-content: space-a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
